@@ -11,6 +11,7 @@ import { Contact } from './components/Contact';
 import { Privacy } from './components/Privacy';
 import { Terms } from './components/Terms';
 import { Blog } from './components/Blog';
+import { NativeBannerAd, MobileAd320x50 } from './components/Ads';
 import { ThemeProvider } from './components/ThemeProvider';
 
 function parseScenarioPath(): { scenarioId: string | null; chapterNum: number | null } {
@@ -183,6 +184,11 @@ function App() {
           {tab === 'terms' && <Terms />}
         </main>
 
+        {/* Mobile bottom banner ad */}
+        <div className="flex sm:hidden justify-center py-2" style={{ borderTop: '1px solid var(--color-glass-border)' }}>
+          <MobileAd320x50 />
+        </div>
+
         <footer className="border-t border-white/5">
           <div className="mx-auto max-w-6xl px-5 sm:px-8 py-10">
             <div className="flex flex-col sm:flex-row items-center justify-between gap-4 mb-6">
@@ -213,6 +219,11 @@ function App() {
                 </button>
               ))}
             </nav>
+
+            {/* Native banner ad in footer */}
+            <div className="mt-6 flex justify-center">
+              <NativeBannerAd />
+            </div>
           </div>
         </footer>
       </div>

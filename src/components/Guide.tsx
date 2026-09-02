@@ -2,6 +2,7 @@ import { motion } from 'framer-motion';
 import { ArrowLeft, ArrowRight } from 'lucide-react';
 import { guideTopics } from '@/data/guide';
 import type { GuideTopic } from '@/data/types';
+import { SidebarAd160x300, RectangleAd300x250 } from './Ads';
 
 interface GuideProps {
   topicId: string | null;
@@ -72,6 +73,11 @@ export function Guide({ topicId, onSelectTopic }: GuideProps) {
             ))}
           </div>
         </motion.article>
+
+        {/* Rectangle ad after guide article */}
+        <div className="mt-8 flex justify-center">
+          <RectangleAd300x250 />
+        </div>
 
         <div className="mt-12 pt-8 border-t border-white/10">
           <p className="font-mono text-xs tracking-[0.2em] uppercase text-faint mb-4">Keep reading</p>
@@ -156,6 +162,11 @@ export function Guide({ topicId, onSelectTopic }: GuideProps) {
             </Reveal>
           );
         })}
+      </div>
+
+      {/* Sidebar ad */}
+      <div className="mt-10 flex justify-center">
+        <SidebarAd160x300 />
       </div>
     </div>
   );

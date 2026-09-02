@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Send, MessageCircleHeart, AlertCircle, User, Sparkles, X } from 'lucide-react';
+import { BannerAd468x60 } from './Ads';
 
 interface Message {
   role: 'user' | 'assistant';
@@ -217,6 +218,11 @@ export function Ask() {
           Ask Toolorna gives general guidance, not professional advice. If you're in distress or
           unsafe, please reach out to a trusted person or a professional.
         </p>
+
+        {/* Banner ad */}
+        <div className="mt-8 flex justify-center">
+          <BannerAd468x60 />
+        </div>
       </div>
 
       {/* Floating action button (mobile-style overlay) */}

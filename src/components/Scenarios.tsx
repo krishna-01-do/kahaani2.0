@@ -3,6 +3,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { ArrowLeft, ArrowRight, MapPin, User, UserRound, Lightbulb, Ban, MessageSquare, BookOpen, Compass } from 'lucide-react';
 import { scenarios } from '@/data/scenarios';
 import type { Scenario } from '@/data/types';
+import { RectangleAd300x250 } from './Ads';
 
 interface ScenariosProps {
   scenarioId: string | null;
@@ -131,6 +132,11 @@ export function Scenarios({ scenarioId, chapterNum, onSelectScenario, onSelectCh
               </button>
             </Reveal>
           ))}
+        </div>
+
+        {/* Rectangle ad after scenarios grid */}
+        <div className="mt-10 flex justify-center">
+          <RectangleAd300x250 />
         </div>
 
       </div>

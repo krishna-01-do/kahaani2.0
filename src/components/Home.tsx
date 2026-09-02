@@ -4,6 +4,7 @@ import type { Tab } from './Nav';
 import { scenarios } from '@/data/scenarios';
 import { guideTopics } from '@/data/guide';
 import { Feedback } from './Feedback';
+import { BannerAd468x60 } from './Ads';
 
 interface HomeProps {
   onNavigate: (tab: Tab, opts?: { scenarioId?: string; topicId?: string }) => void;
@@ -125,6 +126,11 @@ export function Home({ onNavigate }: HomeProps) {
         </div>
       </section>
 
+      {/* Banner ad */}
+      <div className="flex justify-center py-6 border-t border-white/5">
+        <BannerAd468x60 />
+      </div>
+
       {/* Guide preview */}
       <section className="relative border-t border-white/5">
         <div className="mx-auto max-w-6xl px-5 sm:px-8 py-16 sm:py-20">
@@ -158,6 +164,11 @@ export function Home({ onNavigate }: HomeProps) {
           </div>
         </div>
       </section>
+
+      {/* Banner ad */}
+      <div className="flex justify-center py-6 border-t border-white/5">
+        <BannerAd468x60 />
+      </div>
 
       {/* Featured scenario preview */}
       <section className="relative border-t border-white/5">

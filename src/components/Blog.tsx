@@ -2,6 +2,7 @@ import { motion } from 'framer-motion';
 import { ArrowRight, Clock, PenLine } from 'lucide-react';
 import { blogPosts } from '@/data/blog';
 import type { BlogPost } from '@/data/blog';
+import { RectangleAd300x250 } from './Ads';
 
 const ease = [0.22, 1, 0.36, 1] as const;
 
@@ -123,6 +124,11 @@ export function Blog({ postId, onSelectPost }: BlogProps) {
           ))}
         </motion.div>
 
+        {/* Rectangle ad after article content */}
+        <div className="mt-8 flex justify-center">
+          <RectangleAd300x250 />
+        </div>
+
         <motion.div
           initial={{ opacity: 0, y: 16 }}
           animate={{ opacity: 1, y: 0 }}
@@ -180,6 +186,11 @@ export function Blog({ postId, onSelectPost }: BlogProps) {
         {blogPosts.map((post, i) => (
           <PostCard key={post.id} post={post} onClick={() => { onSelectPost(post.id); window.scrollTo({ top: 0 }); }} />
         ))}
+      </div>
+
+      {/* Rectangle ad after blog list */}
+      <div className="mt-10 flex justify-center">
+        <RectangleAd300x250 />
       </div>
     </div>
   );

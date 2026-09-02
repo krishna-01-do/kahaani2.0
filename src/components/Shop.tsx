@@ -1,6 +1,7 @@
 import { useState, useEffect, useCallback } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Lock, Crown, Loader2, Check, AlertCircle, Mail, Download, BookOpen, Zap, Gift, Heart, Sparkles, Clock, ShieldCheck, ChevronLeft, Phone } from 'lucide-react';
+import { BannerAd468x60 } from './Ads';
 
 const ease = [0.22, 1, 0.36, 1] as const;
 
@@ -601,6 +602,11 @@ export function Shop({ onBack }: ShopProps) {
           </motion.button>
           <p className="font-mono text-[11px] text-faint mt-4">You will get a {PRODUCT.fileSize} file</p>
         </div>
+      </div>
+
+      {/* Banner ad */}
+      <div className="mx-auto max-w-6xl px-5 sm:px-8 pb-12 flex justify-center">
+        <BannerAd468x60 />
       </div>
     </div>
   );
