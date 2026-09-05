@@ -50,7 +50,7 @@ function App() {
 
   // Dynamic SEO per page
   const seoData = (() => {
-    const base = 'https://toolorna.vercel.app';
+    const base = 'https://www.toolorna.com';
     switch (tab) {
       case 'home':
         return { title: 'Toolorna — Relationship Advice for Indian Gen Z & Young Adults', description: 'Honest relationship advice for Indians — texting, the talking stage, first fights, breakups, one-sided love, long distance, and more. Read real scenarios and in-depth blog articles.', canonical: `${base}/` };

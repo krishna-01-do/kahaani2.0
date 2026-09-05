@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 Disallow: /shop
 
-Sitemap: https://toolorna.vercel.app/sitemap.xml
+Sitemap: https://www.toolorna.com/sitemap.xml
