@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { Heart, Compass, BookOpen, MessageCircleHeart, Shield } from 'lucide-react';
+import { Heart, Compass, BookOpen, MessageCircleHeart, Shield, PenLine, Users, Sparkles } from 'lucide-react';
 
 const ease = [0.22, 1, 0.36, 1] as const;
 
@@ -49,6 +49,44 @@ export function About() {
         </p>
       </motion.div>
 
+      {/* What we cover — SEO keyword-rich content */}
+      <motion.div
+        initial={{ opacity: 0, y: 16 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.5, ease, delay: 0.05 }}
+        className="glass rounded-2xl p-6 sm:p-8 mb-10"
+      >
+        <div className="flex items-center gap-2 mb-4">
+          <Sparkles className="w-4 h-4" strokeWidth={1.75} style={{ color: 'var(--color-romance)' }} />
+          <h2 className="font-display text-xl sm:text-2xl font-700 text-heading">What we cover</h2>
+        </div>
+        <p className="font-body text-[15px] text-body leading-[1.75] mb-4">
+          Toolorna covers the full spectrum of modern relationships for Indian Gen Z and young adults.
+          Whether you are dealing with a crush you cannot figure out, stuck in the talking stage,
+        navigating your first real relationship, or trying to heal after a breakup — we have honest,
+        in-depth content for every stage of your love life.
+        </p>
+        <div className="grid sm:grid-cols-2 gap-3">
+          {[
+            'How to text your crush without sounding desperate',
+            'Talking stage signs — is it going somewhere?',
+            'Green flags and red flags in a relationship',
+            'How to handle your first fight as a couple',
+            'One-sided love — how to let go and move on',
+            'Long distance relationship tips for Indian couples',
+            'Breakup recovery and healing after heartbreak',
+            'Texting etiquette and what your messages say',
+            'Is your relationship getting boring? How to fix it',
+            'Making the first move — confidence without pressure',
+          ].map((topic, i) => (
+            <div key={i} className="flex items-start gap-2">
+              <span className="font-mono text-xs mt-1" style={{ color: 'var(--color-romance)' }}>•</span>
+              <p className="font-body text-sm text-body leading-relaxed">{topic}</p>
+            </div>
+          ))}
+        </div>
+      </motion.div>
+
       <motion.div
         initial={{ opacity: 0, y: 16 }}
         animate={{ opacity: 1, y: 0 }}
@@ -61,6 +99,26 @@ export function About() {
           professional psychology practice. The content is created and curated by a small team that
           cares about helping people build healthy, honest relationships in a culture where these
           conversations rarely happen openly.
+        </p>
+      </motion.div>
+
+      {/* Who we help — E-E-A-T audience signal */}
+      <motion.div
+        initial={{ opacity: 0, y: 16 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.5, ease, delay: 0.12 }}
+        className="glass rounded-2xl p-6 sm:p-8 mb-10"
+      >
+        <div className="flex items-center gap-2 mb-4">
+          <Users className="w-4 h-4" strokeWidth={1.75} style={{ color: 'var(--color-calm-2)' }} />
+          <h2 className="font-display text-xl sm:text-2xl font-700 text-heading">Who we help</h2>
+        </div>
+        <p className="font-body text-[15px] text-body leading-[1.75]">
+          Toolorna is for anyone navigating love and relationships in India — college students figuring
+          out their first crush, young professionals in their first serious relationship, people healing
+          from a breakup, and anyone who has ever stared at their phone wondering what to text back.
+          Our content is designed for Gen Z and young adults who want honest, relatable advice without
+          the toxicity of pickup-artist culture or the vagueness of generic dating tips.
         </p>
       </motion.div>
 
@@ -102,6 +160,26 @@ export function About() {
           Everything on Toolorna is meant to help you think — not to think for you. Trust your own
           reading of the situation, listen to the other person, and when something feels off, talk
           to someone you trust. If you are in distress, please reach out to a professional.
+        </p>
+      </motion.div>
+
+      {/* Our content approach — E-E-A-T methodology signal */}
+      <motion.div
+        initial={{ opacity: 0, y: 16 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.5, ease, delay: 0.3 }}
+        className="glass rounded-2xl p-6 sm:p-8"
+      >
+        <div className="flex items-center gap-2 mb-3">
+          <PenLine className="w-4 h-4" strokeWidth={1.75} style={{ color: 'var(--color-romance)' }} />
+          <p className="font-mono text-[11px] tracking-wider uppercase text-faint">Our approach</p>
+        </div>
+        <p className="font-body text-[15px] text-body leading-[1.75]">
+          Our articles are researched and written with a focus on real-world applicability in the Indian
+          context. We draw from established relationship psychology, communication theory, and the lived
+          experiences of young Indians. Every article is designed to be practical, not theoretical — you
+          should be able to read it and know exactly what to do next. We update our content regularly to
+          keep it relevant to how relationships actually work in 2026, not how they worked ten years ago.
         </p>
       </motion.div>
     </div>

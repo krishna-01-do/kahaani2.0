@@ -12,6 +12,8 @@ import { Privacy } from './components/Privacy';
 import { Terms } from './components/Terms';
 import { Blog } from './components/Blog';
 import { NativeBannerAd, MobileAd320x50 } from './components/Ads';
+import { useSEO } from './components/useSEO';
+import { blogPosts } from './data/blog';
 import { ThemeProvider } from './components/ThemeProvider';
 
 function parseScenarioPath(): { scenarioId: string | null; chapterNum: number | null } {
@@ -45,6 +47,41 @@ function App() {
   const initialScenario = parseScenarioPath();
   const [scenarioId, setScenarioId] = useState<string | null>(initialScenario.scenarioId);
   const [chapterNum, setChapterNum] = useState<number | null>(initialScenario.chapterNum ?? (initialScenario.scenarioId ? 1 : null));
+
+  // Dynamic SEO per page
+  const seoData = (() => {
+    const base = 'https://toolorna.vercel.app';
+    switch (tab) {
+      case 'home':
+        return { title: 'Toolorna — Relationship Advice for Indian Gen Z & Young Adults', description: 'Honest relationship advice for Indians — texting, the talking stage, first fights, breakups, one-sided love, long distance, and more. Read real scenarios and in-depth blog articles.', canonical: `${base}/` };
+      case 'guide':
+        return { title: 'Relationship Guide — Topics on Love, Dating & Breakups | Toolorna', description: 'Plain-language articles on the parts of relationships that matter — shyness, making the first move, the talking stage, relationships, breakups, and heartbreak. Written for an Indian context.', canonical: `${base}/` };
+      case 'scenarios':
+        return { title: 'Relationship Scenarios — Real Stories from Start to Commitment | Toolorna', description: 'Each scenario follows two people through nine chapters — from the first notice to meeting family. You see both sides think, not just one.', canonical: `${base}/scenarios` };
+      case 'blog': {
+        const post = blogPostId ? blogPosts.find((p) => p.id === blogPostId) : undefined;
+        if (post) {
+          return { title: `${post.title} | Toolorna`, description: post.excerpt, canonical: `${base}/blog/${post.id}` };
+        }
+        return { title: 'Blog — Modern Relationship Advice for Indians | Toolorna', description: 'Honest, in-depth articles on texting, the talking stage, fights, breakups, one-sided love, long distance, green flags, and more. Written for how relationships actually work today.', canonical: `${base}/blog` };
+      }
+      case 'ask':
+        return { title: 'Ask Toolorna — Get Honest Answers to Your Relationship Questions', description: 'Ask your relationship doubts and get honest, grounded advice — about attraction, the talking stage, relationships, breakups, and heartbreak. No manipulation, no scripts.', canonical: `${base}/` };
+      case 'shop':
+        return { title: 'Shop — Relationship Guides & PDF Downloads | Toolorna', description: 'Get the ultimate Indian psychology guide to relationships. PDF guides that go deeper on attraction, connection, and love.', canonical: `${base}/shop` };
+      case 'about':
+        return { title: 'About Toolorna — Our Mission & Approach to Relationship Advice', description: 'Toolorna is an honest guide to relationships in an Indian context — grounded in consent, honesty, and real human experience, not pickup tactics or manipulation.', canonical: `${base}/about` };
+      case 'contact':
+        return { title: 'Contact Toolorna — Get in Touch', description: 'Have a question, feedback, or a story to share? Reach out to the Toolorna team.', canonical: `${base}/contact` };
+      case 'privacy':
+        return { title: 'Privacy Policy | Toolorna', description: 'Read the Toolorna privacy policy to understand how we handle your data and information.', canonical: `${base}/privacy` };
+      case 'terms':
+        return { title: 'Terms & Disclaimer | Toolorna', description: 'Toolorna provides guidance, not professional advice. Read our full terms and disclaimer.', canonical: `${base}/terms` };
+      default:
+        return { title: 'Toolorna — Relationship Advice for Indian Gen Z & Young Adults', description: 'Honest relationship advice for Indians.', canonical: `${base}/` };
+    }
+  })();
+  useSEO(seoData);
 
   const navigate = (next: Tab, opts?: { scenarioId?: string; topicId?: string; postId?: string }) => {
     setTab(next);

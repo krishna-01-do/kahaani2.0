@@ -193,4 +193,252 @@ export const blogPosts: BlogPost[] = [
       },
     ],
   },
+  {
+    id: 'green-flags-relationship',
+    title: '12 Green Flags in a Relationship That Are Better Than Red Flags',
+    excerpt: 'Everyone talks about red flags. But what about the green flags — the quiet signs that someone is actually good for you? Here are 12 that matter more than you think.',
+    category: 'Relationships',
+    readTime: '9 min read',
+    date: 'September 2, 2026',
+    author: 'Toolorna Team',
+    content: [
+      {
+        heading: 'Why green flags matter more than red flags',
+        text: 'We have all been trained to scan for red flags — the toxic traits, the warning signs, the dealbreakers. But here is the problem: if you only look for what is wrong, you will miss what is right. A relationship without red flags is not automatically a good relationship. It is just a relationship that has not hurt you yet. Green flags are the positive signs that someone is genuinely good for you — the indicators that this person is safe, mature, and worth investing in. They are quieter than red flags, which is why most people overlook them. This article is about learning to see them.',
+      },
+      {
+        heading: '1. They remember the small things',
+        text: 'You mentioned once, three weeks ago, that your mother has a knee problem. Today they ask how your mother\'s knee is doing. That is a green flag. It means they are not just listening to respond — they are listening to know you. People who remember small details are people who are paying attention. And attention, sustained over time, is one of the deepest forms of love.',
+      },
+      {
+        heading: '2. They do not play games with your feelings',
+        text: 'No hot-and-cold behaviour. No deliberate delayed replies to "keep you guessing." No withholding affection as punishment. If they like you, you know. If they are upset, they tell you. The relationship feels stable, not like an emotional rollercoaster. Games are for people who are insecure. Green flag partners are secure enough to be direct.',
+      },
+      {
+        heading: '3. They apologise without being asked',
+        text: 'When they mess up, they say so — before you have to drag it out of them. The apology is specific ("I should not have snapped at you, I was stressed about work and took it out on you"), not vague ("sorry if you felt bad"). They take responsibility without deflecting, without making it your fault, and without bringing up something you did wrong to balance the scales.',
+      },
+      {
+        heading: '4. They respect your boundaries without making you feel guilty',
+        text: 'You say you need a night alone. They do not pout, guilt-trip, or ask "are you mad at me?" They say "okay, enjoy your evening" and mean it. You say you are not ready to be physically intimate. They do not push, do not ask "why not," do not try to negotiate. They respect the boundary and move on. A person who makes you feel guilty for having limits is a person who does not respect you.',
+      },
+      {
+        heading: '5. They are kind to people who can do nothing for them',
+        text: 'Watch how they treat the waiter, the auto driver, the delivery person, the security guard. Watch how they talk about their colleagues who are not in the room. Kindness to you is easy when they want something from you. Kindness to strangers, especially strangers who serve no purpose in their life, is a character trait. If they are warm to you but cold to everyone else, the warmth is a strategy, not a personality.',
+      },
+      {
+        heading: '6. They celebrate your wins without making it about them',
+        text: 'You got a promotion. They are genuinely excited — not "that is great, I also got something cool last week." They do not one-up you. They do not minimise it ("congrats, but do not let it go to your head"). They make space for your moment. A partner who cannot celebrate your success without inserting themselves is a partner who sees you as competition, not a teammate.',
+      },
+      {
+        heading: '7. They are consistent, not just romantic',
+        text: 'Grand gestures are easy. Consistency is hard. Showing up on time, texting back regularly, keeping the small promises — these are the green flags that build real trust. Anyone can buy flowers on Valentine\'s Day. Not everyone remembers to ask how your big meeting went on a random Tuesday. Consistency is the green flag that proves the romance is real, not performative.',
+      },
+      {
+        heading: '8. They can handle a no',
+        text: 'You say no to something — a plan, a favour, a request — and they accept it gracefully. No sulking, no passive-aggression, no "fine, whatever." They do not treat your no as an attack or a rejection. They understand that you are a separate person with your own preferences, and your no is not a negotiation. This is one of the most important green flags, because how someone handles a small no tells you how they will handle a big one.',
+      },
+      {
+        heading: '9. They have their own life and do not make you their entire world',
+        text: 'They have friends, hobbies, goals, and interests outside of you. They do not need you to be their entertainment, their therapist, and their emotional support system 24/7. This is healthy. A partner who has their own life brings energy and stories and growth into the relationship. A partner who has nothing but you will eventually drain you, because you become responsible for their happiness.',
+      },
+      {
+        heading: '10. They make you feel safe to be honest',
+        text: 'You can tell them when you are upset, when you disagree, when something bothered you — without fearing an explosion, a guilt trip, or a withdrawal of love. You do not walk on eggshells. You do not rehearse what you are going to say to avoid setting them off. Emotional safety is the foundation of intimacy. If you feel safe to be yourself, fully and honestly, that is a green flag that beats every red flag on the internet.',
+      },
+      {
+        heading: '11. They put effort into your family and friends',
+        text: 'They remember your sister\'s name. They ask about your father\'s health. They are warm to your friends when you introduce them, without being fake or over-the-top. They understand that your people are part of you, and they want to be part of that world too. In the Indian context, this is especially important — a partner who respects and engages with your family is showing long-term thinking, not just short-term charm.',
+      },
+      {
+        heading: '12. You feel like yourself around them',
+        text: 'This is the ultimate green flag, and it is the hardest to explain. You do not feel like you are performing. You do not feel like you are shrinking yourself to fit their expectations. You do not feel like you are constantly managing their perception of you. You feel relaxed, authentic, and at home. If you feel like the best version of yourself — not a smaller version, not a filtered version, but the real you — that is the greenest flag there is.',
+      },
+    ],
+  },
+  {
+    id: 'how-to-text-crush',
+    title: 'How to Text Your Crush Without Sounding Desperate: 15 Texts That Actually Work',
+    excerpt: 'Staring at a blank screen, trying to figure out what to send? Here are 15 text messages that start conversations naturally, without making you look clingy or desperate.',
+    category: 'Modern Dating',
+    readTime: '11 min read',
+    date: 'September 2, 2026',
+    author: 'Toolorna Team',
+    content: [
+      {
+        heading: 'The golden rule of texting your crush',
+        text: 'The goal is not to say the perfect thing. The goal is to start a conversation that feels natural, not forced. The best texts are not clever pickup lines — they are bridges. They give the other person something easy to respond to, they show you are thinking about them, and they do not demand a specific answer. If your text can only be answered with "haha yeah" or "lol," it is a dead-end text. If it opens a door, it is a good text. Here are 15 that open doors.',
+      },
+      {
+        heading: 'Text 1: The callback',
+        text: '"Okay I just saw someone do [thing you talked about] and I immediately thought of you." This works because it shows you remembered a detail from a previous conversation. It is specific, it is personal, and it gives them an easy opening to respond. The key is that the callback has to be real — you actually talked about this thing, and you actually saw something related. Do not invent a connection. People can tell when you are forcing it.',
+      },
+      {
+        heading: 'Text 2: The recommendation',
+        text: '"You need to watch [show/movie/YouTube video]. I just finished it and I think you would love it because [specific reason]." This is great because it shows you know their taste, it gives you something to talk about, and it sets up a future conversation ("did you watch it yet?"). The specific reason is what makes it work — "because you love thrillers with twist endings" is personal. "because it is good" is generic.',
+      },
+      {
+        heading: 'Text 3: The low-stakes question',
+        text: '"Quick question — do you know a good [restaurant/cafe/place] in [area]?" This is a low-pressure text that does not scream "I am into you." It is practical, it is easy to answer, and it opens the door for a follow-up: "Thanks! I am going there this weekend, I will let you know if it is good." If they are interested, they will ask who you are going with. If they are not, they still answer helpfully and no one feels awkward.',
+      },
+      {
+        heading: 'Text 4: The shared experience',
+        text: '"Is it just me or is [current event/weather/thing happening in your city] absolutely insane right now?" This is a low-effort, high-response text. Everyone has an opinion on the weather, the traffic, the crazy thing happening in the news. It is a shared moment, and shared moments are the easiest way to connect. It says "I am thinking about you in the middle of my day" without being heavy.',
+      },
+      {
+        heading: 'Text 5: The genuine compliment (not about looks)',
+        text: '"I just wanted to say, I really admire how you [specific trait or thing they did]. Not a lot of people would do that." Compliments about looks are easy and forgettable. Compliments about character, intelligence, or something they worked hard on — those stick. "I admire how you handled that situation at work" is a compliment they will remember for weeks. "You are so hot" is one they have heard a hundred times.',
+      },
+      {
+        heading: 'Text 6: The meme or reel',
+        text: 'Send a meme, reel, or TikTok that reminded you of them. No text needed — or just "this is you" or "thought of you." This is the most natural, low-pressure text in 2026. It is how Gen Z communicates. The meme does the work for you. If they respond with a meme back, you are in a conversation. If they respond with "haha yeah," give it a day and try a different approach. The meme is a temperature check, not a declaration of love.',
+      },
+      {
+        heading: 'Text 7: The "saw this and thought of you"',
+        text: '"I just walked past [place you went together / place they mentioned wanting to go] and it made me think of you." This is similar to the callback but more spontaneous. It works because it is real — you were going about your day, and they crossed your mind. That is the most flattering thing you can communicate to someone: that they exist in your thoughts even when they are not in front of you.',
+      },
+      {
+        heading: 'Text 8: The opinion ask',
+        text: '"I need your opinion on something — [topic they know about]." People love being asked for their expertise. It shows you respect their knowledge and value their judgment. Whether it is tech, fashion, music, food, or career advice — asking someone for their opinion is a compliment disguised as a question. And it naturally leads to a longer conversation because they have something to say about it.',
+      },
+      {
+        heading: 'Text 9: The weekend check-in',
+        text: '"How was your weekend? Did you end up doing [thing they mentioned they had planned]?" This works because it proves you were listening. They mentioned they had a family function, or a trip, or an exam — and you remembered. Following up on something they told you about is one of the most attractive things you can do, because it shows care without being overbearing.',
+      },
+      {
+        heading: 'Text 10: The playful debate',
+        text: '"Important question: [controversial but fun opinion]. I need to know where you stand." Examples: "Is maggi better with or without vegetables?" "Does pineapple belong on pizza?" "Is [character from a show] actually the villain?" This is fun, it is low-stakes, and it naturally sparks a playful back-and-forth. The goal is not to win the debate — it is to have a conversation that feels like flirting without calling it flirting.',
+      },
+      {
+        heading: 'Text 11: The voice note',
+        text: 'Instead of typing, send a short voice note. "Hey, I just wanted to tell you about [funny thing that happened today] — it is too long to type." Voice notes carry tone, warmth, and personality that text cannot. They feel more intimate without being more intense. A 15-second voice note about something funny that happened to you is more attractive than a perfectly crafted paragraph.',
+      },
+      {
+        heading: 'Text 12: The "I was wrong about something"',
+        text: '"I just found out [thing you were both wrong about] and I need to admit you were right." This is playful, it is humble, and it references a shared moment. It shows you can laugh at yourself, which is one of the most attractive qualities a person can have. It also opens the door for them to tease you back, which is the beginning of banter.',
+      },
+      {
+        heading: 'Text 13: The event invite (low pressure)',
+        text: '"Hey, a few of us are going to [event/place] this [day]. You should come if you are free!" This is a group setting, which takes the pressure off. It is not a date — it is an invitation to hang out where they can meet your friends and you can see them in a social setting. If they come, great. If they cannot, you have planted the seed for next time. The key is that it is genuinely low-pressure — do not act hurt if they say no.',
+      },
+      {
+        heading: 'Text 14: The check-in after something big',
+        text: '"Hey, just wanted to check in — how did [big thing they were nervous about] go?" Exam, interview, presentation, family event — whatever it was, following up shows you care about their life beyond the flirting. This is the text that separates someone who is interested from someone who is just bored. Anyone can send a meme at 11 PM. Following up on something that mattered to them, at a time when they might need support, is what a good partner does.',
+      },
+      {
+        heading: 'Text 15: The honest one',
+        text: '"Hey, I really enjoy talking to you and I would love to take you out sometime. No pressure if you are not up for it, but I wanted to be honest about it." This is the text for when you are tired of the games and just want to be direct. It is confident, it is respectful, and it gives them an easy out. The beauty of this text is that it is unafraid. If they say yes, you know where you stand. If they say no, you also know where you stand — and you stop wasting your time. Honesty is always a green flag.',
+      },
+      {
+        heading: 'The meta-rule: do not overthink it',
+        text: 'Every text on this list works because it is natural, specific, and low-pressure. But here is the truth no list can tell you: the best text is the one that is authentically you. If you are a meme person, send memes. If you are a voice-note person, send voice notes. If you are a direct person, be direct. The desperation does not come from what you text — it comes from why you are texting. If you are texting because you genuinely want to connect, it will show. If you are texting because you need a response to feel okay, that will show too. Work on the second one, and the first one takes care of itself.',
+      },
+    ],
+  },
+  {
+    id: 'one-sided-love',
+    title: 'One-Sided Love: How to Stop Loving Someone Who Does Not Love You Back',
+    excerpt: 'You are in love with someone who does not feel the same way, and it is destroying you. Here is how to accept it, process it, and finally let go — without losing yourself.',
+    category: 'Heartbreak',
+    readTime: '10 min read',
+    date: 'September 2, 2026',
+    author: 'Toolorna Team',
+    content: [
+      {
+        heading: 'The reality of one-sided love',
+        text: 'One-sided love is not a crush. A crush is a passing attraction. One-sided love is a deep emotional investment in someone who does not — and likely will not — return those feelings. It is one of the most painful experiences a person can go through, because the love is real, but it is going nowhere. You are not crazy for feeling this way. You are not weak. You are a human being who gave your heart to someone who was not ready to receive it. But staying in this state is not love — it is self-abandonment. This article is about how to get out.',
+      },
+      {
+        heading: 'Stop romanticising the pain',
+        text: 'Bollywood has taught us that one-sided love is noble, that waiting forever is romantic, that the person will eventually realise your worth and come running. This is a story, not a strategy. In real life, the person who does not love you back is not going to suddenly wake up one morning and see the light. They know how you feel — or they have a strong idea — and they have chosen not to reciprocate. That is not cruelty. That is just their truth. Romanticising your pain keeps you stuck. Accepting their truth, however much it hurts, is what sets you free.',
+      },
+      {
+        heading: 'Accept that closure comes from you',
+        text: 'You are waiting for a conversation, an explanation, a moment of clarity from them. You think if they would just tell you why, you could move on. Here is the hard truth: even if they told you why, it would not help. "I just do not feel that way about you" is the only answer there is, and you already know it. Closure is not something they give you. It is something you give yourself. It is the decision to stop waiting for an answer and start accepting the one that is already in front of you: they are not interested. That is the whole answer. Everything else is you delaying the grief.',
+      },
+      {
+        heading: 'Cut the digital cord',
+        text: 'You cannot heal from someone you see every day on your screen. Mute their stories. Unfollow them. Archive the chat. Delete the photos if you need to. You are not erasing them from your life — you are reducing the number of times per day your brain is pulled back into the fantasy. Every time you check their story, you get a tiny dopamine hit followed by a crash. It is like pulling a scab off a wound every few hours and wondering why it is not healing. Leave the wound alone. It will heal faster than you think.',
+      },
+      {
+        heading: 'Stop the "maybe" spiral',
+        text: 'Your brain is running a loop: maybe if I looked different, maybe if I said something differently, maybe if I was more successful, maybe if I was more their type. Stop. None of these are the reason. The reason is that love and attraction are not something you earn by being good enough. They are either there or they are not. You can be the most perfect version of yourself and someone still will not feel it. That is not a reflection of your worth. It is just how human connection works. The "maybe" spiral is your brain trying to find a fixable reason because a fixable reason means there is hope. There is no fix here. There is only acceptance.',
+      },
+      {
+        heading: 'Let yourself grieve',
+        text: 'One-sided love is a loss, and losses need to be grieved. You are losing not just the person, but the future you imagined with them. The dates you planned in your head. The conversations you rehearsed. The version of yourself you were going to be with them. All of that is gone, and it is okay to feel that. Cry if you need to. Write it out if that helps. Talk to someone you trust. Do not pretend it does not hurt. The people who pretend they are fine are the ones who carry this for years. The people who let themselves feel it are the ones who move through it.',
+      },
+      {
+        heading: 'Redirect the energy',
+        text: 'All the love, attention, and energy you have been pouring into someone who cannot receive it — redirect it. Pour it into yourself. Into your career, your fitness, your friendships, your hobbies, your education. Not as a distraction, but as a reclamation. You have been giving your best energy to someone who does not want it. Start giving it to someone who does: you. This is not about "becoming better so they will want you." This is about becoming whole so that you no longer need them to want you.',
+      },
+      {
+        heading: 'Do not stay friends (yet)',
+        text: 'The most common trap: "let us be friends." You agree because you think being in their life is better than being out of it. But every friendship interaction will be filtered through your feelings. Every time they talk about someone else, it will cut you. Every time they are warm to you, you will read into it. You cannot be friends with someone you are in love with. Not yet. Maybe not ever. You need distance first — real distance, not the pretend distance of a friendship where you are secretly hoping they will fall for you. If a genuine friendship is possible, it will be possible after you have moved on. Not before.',
+      },
+      {
+        heading: 'The version of you they did not want is not the final version',
+        text: 'Right now, you feel like this person\'s rejection defines you. It does not. The person you are right now — hurt, longing, stuck — is not your final form. You are going to grow past this. You are going to meet someone who looks at you the way you have been looking at them, and you will understand why it never worked with anyone else. But that cannot happen while you are still orbiting someone who has made their choice. Let go of the orbit. Start walking your own path. The person you become on that path is the person someone else is looking for right now.',
+      },
+      {
+        heading: 'A final note',
+        text: 'If you are reading this at 2 AM, staring at your phone, wondering if there is something you can do — there is. You can put the phone down. You can close your eyes. You can decide, tonight, that you are done waiting for someone who is not coming. It will not feel better immediately. But it will feel better eventually. And eventually is closer than you think. You deserve someone who chooses you back. Go find them.',
+      },
+    ],
+  },
+  {
+    id: 'relationship-boredom',
+    title: 'Is Your Relationship Getting Boring? 10 Ways to Fix It Before It Ends',
+    excerpt: 'The honeymoon phase is over, the routine has set in, and you are wondering if the spark is gone. Before you panic, read this.',
+    category: 'Relationships',
+    readTime: '9 min read',
+    date: 'September 2, 2026',
+    author: 'Toolorna Team',
+    content: [
+      {
+        heading: 'Boredom is not the same as falling out of love',
+        text: 'Every long-term relationship hits a boring phase. This is normal. It is not a sign that you are with the wrong person. It is a sign that the initial adrenaline of new love has worn off and you have entered the phase where love is a choice, not a feeling. The problem is that most people interpret boredom as a relationship problem, when it is actually a relationship phase. The couples who break up over boredom are not the ones whose relationships were broken — they are the ones who did not know how to transition from exciting to sustainable. Here is how to do that.',
+      },
+      {
+        heading: '1. Stop waiting for excitement to happen to you',
+        text: 'In the beginning, excitement was automatic. You did not have to plan it — everything was new. Now, excitement has to be created. If you are waiting for the spark to come back on its own, you will wait forever. The spark does not come back. You bring it back. You plan the date. You suggest the trip. You initiate the conversation. Boredom is not the absence of excitement — it is the absence of effort.',
+      },
+      {
+        heading: '2. Do something new together',
+        text: 'Studies on relationships consistently show that couples who do novel activities together feel more connected. Not dinner-and-a-movie new — actually new. A cooking class. A hike you have never done. A weekend trip to a town you have never been to. Learning something together. The brain associates novelty with attraction. When you do something new with your partner, your brain recreates a small version of the early-relationship excitement. It is not the same as the first spark, but it is real, and it compounds.',
+      },
+      {
+        heading: '3. Bring back the questions you used to ask',
+        text: 'When you first met, you asked each other everything. Favourite movie, childhood memory, biggest fear, dream vacation. You have probably stopped asking. You think you know everything. You do not. People change. Their answers from two years ago are not their answers today. Start asking again. "What is something you have changed your mind about since we met?" "What is a goal you have that you have not told me about?" "What is something I do that you wish I did more of?" Curiosity is the antidote to boredom.',
+      },
+      {
+        heading: '4. Fix the phone problem',
+        text: 'If you are both scrolling on your phones while sitting next to each other on the couch, that is not quality time. That is coexisting. Set a rule: phones away for the first hour after you both get home. Or phones away during meals. Or a no-phones-in-bed rule. The phone is the most common relationship killer of this generation, not because of what is on it, but because of what it replaces: presence. You cannot feel connected to someone who is mentally somewhere else.',
+      },
+      {
+        heading: '5. Bring back physical touch that is not about sex',
+        text: 'When did you last hold hands? When did you last hug for more than three seconds? When did you last sit close enough to feel each other\'s warmth without it leading to sex? Non-sexual physical touch releases oxytocin, the bonding hormone. It is one of the most powerful ways to feel close, and it is one of the first things couples stop doing. Hug for 20 seconds when you get home. Put your hand on their back while they cook. Hold hands while walking. These are not small gestures. They are the language of long-term love.',
+      },
+      {
+        heading: '6. Have a shared project',
+        text: 'A shared project gives you something to talk about that is not the daily grind. It could be redecorating a room, starting a small garden, planning a trip, building something, learning a language together. A shared project creates a shared future, and a shared future creates excitement. The boredom often comes from feeling like every day is the same. A project breaks the sameness and gives you both something to look forward to.',
+      },
+      {
+        heading: '7. Bring back the dates',
+        text: 'Not "let us get food." Actual dates. Planned, dressed up for, phones away. It does not have to be expensive. It has to be intentional. Take turns planning. One week you plan, the next week they plan. The rule: it has to be something different from what you usually do. If you usually eat at home, go out. If you usually go out, cook together. If you usually watch something, go for a walk instead. The point is not the activity — the point is the intentionality.',
+      },
+      {
+        heading: '8. Talk about the boredom',
+        text: 'This is the one nobody wants to do because it feels like admitting failure. It is not. Saying "I feel like we have been in a rut lately and I want us to be more intentional about spending quality time together" is not a crisis. It is a check-in. It is two adults acknowledging a phase and deciding to do something about it. The couples who break up over boredom are the ones who never talked about it. They just let it grow until the silence became permanent. Name the boredom. Then fix it together.',
+      },
+      {
+        heading: '9. Maintain your individual lives',
+        text: 'Counterintuitive but true: the best thing you can do for a boring relationship is to have a life outside of it. See your friends. Pursue your own hobbies. Have experiences that are just yours. Then bring those experiences back into the relationship. A partner who has their own life is interesting. A partner whose entire world is the relationship has nothing new to bring. Independence is not distance — it is the thing that keeps you growing, and growth is the opposite of boredom.',
+      },
+      {
+        heading: '10. Remember that boring can be beautiful',
+        text: 'There is a kind of peace in a long-term relationship that no amount of early excitement can match. Knowing someone\'s order at a restaurant. Finishing each other\'s sentences. The quiet comfort of sitting together in silence and not needing to fill it. This is not boredom. This is intimacy. The goal is not to eliminate the calm. The goal is to keep the calm from becoming numbness. Add the spark when you need it, but do not mistake the peace for a problem. The peace is what you were building toward all along.',
+      },
+    ],
+  },
 ];
